@@ -31,9 +31,16 @@ footer{
  } 
  .img-monumental{
     border-radius: 10px;
-    margin: 20px;
+    margin: 10px;
  }
  .body-titulo-parrafo{
     font-family: 'Times New Roman', Times, serif;
-    margin-bottom: 20px;
+    margin: 10px;
  }
+ .body-titulo{
+    text-align: center;
+    margin: 2%;
+ }
+.body-iframe{
+    text-align: center;
+}
