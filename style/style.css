@@ -1,0 +1,39 @@
+footer{
+    box-sizing: border-box;
+    background-color:rgb(189, 5, 5);
+    position: absolute;
+    width: 100%;
+    
+
+ }
+ .footer_block{
+    width: 100%;
+    padding: 70px 30px 20px;
+ }
+ .iconos{
+    display: flex;
+    justify-content: center;
+ }
+ 
+ .footer_nav{
+    margin: 20px 0;
+ }
+ .footer_nav ul{
+    display: flex;
+    justify-content: center;
+    color: white;
+    text-decoration: none;
+    list-style-type: none;
+ }
+ .footer_nav ul li a{
+    margin: 20px;
+    font-size: 1.3em;
+ } 
+ .img-monumental{
+    border-radius: 10px;
+    margin: 20px;
+ }
+ .body-titulo-parrafo{
+    font-family: 'Times New Roman', Times, serif;
+    margin-bottom: 20px;
+ }
