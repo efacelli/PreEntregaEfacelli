@@ -1,38 +1,27 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
 footer{
     box-sizing: border-box;
     background-color:rgb(189, 5, 5);
     position: absolute;
     width: 100%;
     
-
  }
- .footer_block{
-    width: 100%;
-    padding: 70px 30px 20px;
- }
- .iconos{
-    display: flex;
-    justify-content: center;
+ .contenedor-img-monumental{
+   width: 75vw;
+   margin: auto;
+   min-width: 320px;
+   max-width: 1000px;
  }
  
- .footer_nav{
-    margin: 10px 0;
- }
- .footer_nav ul{
-    display: flex;
-    justify-content: center;
-    color: white;
-    text-decoration: none;
-    list-style-type: none;
- }
- .footer_nav ul li a{
-    margin: 10px;
-    font-size: 1.3em;
- } 
  .img-monumental{
+    width: 100%;
     border-radius: 10px;
-    margin: 10px;
  }
+
  .body-titulo-parrafo{
     font-family: 'Times New Roman', Times, serif;
     margin: 10px;
@@ -49,4 +38,45 @@ body{
 }
 .card{
    margin-top: 5%;
+}
+.contenedor_padre_footer{
+   display: grid;
+   grid-template-columns: 33vw 33vw 33vw;
+   grid-template-rows: 33vh;
+   grid-template-areas: "hola segunda tercera"
+                        ;
+   
+}
+
+.logo{
+   height: 50px;
+   width: 50px;
+}
+.primera_footer{
+   background-color: rgb(189, 5, 5);
+   grid-area: hola;
+   
+}
+.segunda_footer{
+   background-color: rgb(189, 5, 5);
+   grid-area: segunda;
+}
+   
+.tercera_footer{
+   background-color: rgb(189, 5, 5);
+   grid-area: tercera;
+   
+}
+.a_footer{
+   text-decoration: none;
+   list-style-type: none;
+   color: rgb(255, 255, 255);
+}
+.iframe-ultimoPartido{
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.iframe{
+   margin: 2%;
 }
