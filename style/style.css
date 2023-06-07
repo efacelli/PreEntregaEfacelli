@@ -55,7 +55,6 @@ body{
 .primera_footer{
    background-color: rgb(189, 5, 5);
    grid-area: hola;
-   
 }
 .segunda_footer{
    background-color: rgb(189, 5, 5);
@@ -79,4 +78,53 @@ align-items: center;
 }
 .iframe{
    margin: 2%;
+}
+.contenedor_novedades{
+   display: grid;
+   grid-template-columns: 23vw 53vw 23vw;
+   grid-template-rows: 183vh;
+   grid-template-areas: "noticias fixture publicidad"
+                        ;
+}
+.noticias_novedades{
+   grid-area: noticias;
+   background-color: rgb(255, 255, 255);
+   padding: 5%;
+   border: inset rgb(168, 11, 11) 5px;
+}
+.noticias_novedades a{
+   color: red;
+}
+.fixture_novedades{
+   grid-area: fixture;
+   background-color: white;
+   padding: 5%;
+   
+}
+.publicidad_novedades{
+   grid-area: publicidad;
+   background-color: rgb(255, 255, 255);
+   padding: 5%;
+}
+.publicidad_novedades a{
+   color: red;
+}
+.imagen_confiteria{
+   width: 20vw;
+  border-radius: 10px;
+}
+.tabla_posiciones{
+   width: 43vw;
+   border-radius: 10px;
+   margin: 2%;
+
+}
+.noticias_imagenes{
+   width: 20vw;
+   border-radius: 10px;
+}
+.publicidad_imagen{
+   width: 15vw;
+   margin: 5%;
+   border-radius: 10px;
 }
