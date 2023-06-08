@@ -1,0 +1,33 @@
+footer{
+    box-sizing: border-box;
+    background-color:rgb(189, 5, 5);
+    position: absolute;
+    width: 100%;
+}
+.contenedor_padre_footer{
+    display: grid;
+    grid-template-columns: 33vw 33vw 33vw;
+    grid-template-rows: 33vh;
+    grid-template-areas: "hola segunda tercera"
+                         ;
+    
+ }
+ .primera_footer{
+    background-color: rgb(189, 5, 5);
+    grid-area: hola;
+ }
+ .segunda_footer{
+    background-color: rgb(189, 5, 5);
+    grid-area: segunda;
+ }
+    
+ .tercera_footer{
+    background-color: rgb(189, 5, 5);
+    grid-area: tercera;
+    
+ }
+ .a_footer{
+    text-decoration: none;
+    list-style-type: none;
+    color: rgb(255, 255, 255);
+ }
