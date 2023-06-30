@@ -26,11 +26,15 @@ footer{
     font-family: 'Times New Roman', Times, serif;
     margin: 10px;
  }
+.resumen{
+   font-family: 'Times New Roman', Times, serif;
+    margin: 10px;
+}
  .body-titulo{
     text-align: center;
     margin: 2%;
  }
-.body-iframe{
+.titulo_resumen{
     text-align: center;
 }
 body{

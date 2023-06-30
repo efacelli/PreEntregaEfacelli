@@ -71,3 +71,6 @@ button{
        grid-template-areas: "noticias" "fixture" "publicidad";
    }
 }
+body {
+  overflow-x: hidden;
+}
